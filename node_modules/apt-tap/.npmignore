@@ -1,0 +1,14 @@
+logs
+*.log
+pids
+*.pid
+*.seed
+node_modules
+
+# node-waf configuration
+#
+.lock-wscript
+
+# rsa keys
+#
+rsa

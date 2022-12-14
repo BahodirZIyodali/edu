@@ -1,0 +1,16 @@
+{
+  "name": "apt-tap-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sandro Pasquali <spasquali@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "figures": "^1.4.0",
+    "lodash": "^3.10.1"
+  }
+}

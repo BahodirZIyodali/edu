@@ -1,0 +1,115 @@
+.bigwrap{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column;   
+}
+.first{
+    width: 340px;
+height: 50px;
+background-image: url(../img/icon\ \(3\).svg);
+background-repeat: no-repeat;
+background-color: #FFFFFF;
+border: 1px solid #DEDDE4;
+background-position: 5px 5px;
+border-radius: 10px;
+padding-left: 50px;
+}
+strong {
+    margin-top: 20px;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #5D5A6F;
+}
+p{
+    font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+color: #0A033C;
+}
+#user_reg{
+    width: 370px;
+height: 50px;
+background: #FFFFFF;
+border: 1px solid #DEDDE4;
+border-radius: 10px;
+padding-left: 50px;
+background-image: url(../img/Vector.svg);
+background-position: 15px 15px;
+background-repeat: no-repeat;
+}
+#email_reg{
+    width: 370px;
+height: 50px;
+background: #FFFFFF;
+border: 1px solid #DEDDE4;
+border-radius: 10px;
+padding-left: 50px;
+background-image: url(../img/myl.svg);
+background-position: 15px 15px;
+background-repeat: no-repeat;
+}
+#password_reg{
+    width: 370px;
+height: 50px;
+background: #FFFFFF;
+border: 1px solid #DEDDE4;
+border-radius: 10px;
+padding-left: 50px;
+background-image: url(../img/log.svg);
+background-position: 15px 15px;
+background-repeat: no-repeat;
+margin-bottom: 20px;
+}
+.signup {
+    margin-top: 30px;
+padding: 10px  156px;
+background: #9C4DF4;
+border-radius: 10px;
+color: #FFFFFF;
+text-decoration: none;
+border:#9C4DF4 solid 1px ;
+}
+.signup:hover{
+    border:#9C4DF4 solid 1px ;
+    background: #7700ff;  
+    color: #FFFFFF; 
+}
+a{
+    text-decoration: none;
+    color: #9C4DF4;
+}
+.voli{
+    text-align: center;
+}
+
+#username{
+    width: 370px;
+height: 50px;
+background: #FFFFFF;
+border: 1px solid #DEDDE4;
+border-radius: 10px;
+padding-left: 50px;
+background-image: url(../img/Vector.svg);
+background-position: 15px 15px;
+background-repeat: no-repeat;
+}
+#password{
+    width: 370px;
+height: 50px;
+background: #FFFFFF;
+border: 1px solid #DEDDE4;
+border-radius: 10px;
+padding-left: 50px;
+background-image: url(../img/log.svg);
+background-position: 15px 15px;
+background-repeat: no-repeat;
+margin-bottom: 20px;
+}

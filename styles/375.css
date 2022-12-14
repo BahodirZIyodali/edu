@@ -1,0 +1,31 @@
+@media only screen and (max-width: 375px){
+    .logo{
+        vertical-align: middle;
+    }
+    nav{
+        
+        justify-content:space-between;
+        }
+        .nav_ul{
+            display: none;
+        list-style-type: none;
+        gap: 45px;
+        }
+        .nav_ul-list-link{
+            display: none;
+        }
+        .icons{
+            display: none;
+        }
+        .icons p{
+                color: #000;
+            transition: all 0.4s ease-in;
+        }
+        .icons p:hover{
+                color: #fb4931;
+            transition: all 0.4s ease-in;
+        }
+     .show{
+        display: block ;
+     }   
+    }

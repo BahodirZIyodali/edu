@@ -1,0 +1,128 @@
+@media only screen and (max-width: 576px){
+    nav{
+        justify-content: space-between;
+        }
+        .logo{
+            vertical-align: middle;
+        }
+        .nav_ul{
+            display: none;
+        list-style-type: none;
+        gap: 45px;
+        }
+        .nav_ul-list-link{
+            display: none;
+        }
+        .icons{
+            display: none;
+        }
+        .icons p{
+                color: #000;
+            transition: all 0.4s ease-in;
+        }
+        .icons p:hover{
+                color: #fb4931;
+            transition: all 0.4s ease-in;
+        }
+     .show{
+        display: block ;
+     }   
+     
+     .intro{
+        display: block;
+        position: relative;
+    }
+    /* intro right */
+    .intro_right{
+        margin-top: 130px;
+    }
+    .intro_right span{
+        font-family: 'Metropolis';
+        padding: 15px 20px;
+        background: #FFFFFF;
+    border-radius: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #FF6652;
+    }
+    .intro_right h1{
+        margin-top: 15px;
+        width: 299px;
+        height: 120px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #0A033C;
+    }
+    .intro_desc{
+    margin-top: 30px;
+    width: 333px;
+height: 120px;   
+    font-weight: 400;
+    font-size: 15px;
+    color: #5D5A6F;
+    }
+    .introsearch{
+        top: 40px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        max-width:530px;
+      height: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    gap: 30px;
+    }
+    
+    .introsearch select {
+        width: 100px;
+        border: #fff solid 1px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    }
+    .introsearch input {
+    
+     border: #fff solid 1px;     
+    }
+    .introsearch button {
+   padding:15px 59px 15px 20px  ;
+    background: #9C4DF4;
+    border:#9C4DF4 solid 1px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    }
+    .introsearch button:hover{
+        color: #FFFFFF;
+        background: #9C4DF4;   
+    }
+    /* intro left */
+    .intro_left img{
+        align-items:center !important;
+        margin-top: 50px;
+        max-width: 100%;
+       animation:introImg 3.5s linear ;
+    }
+    @keyframes introImg {
+         from {
+            transform: translateX(+50%);
+         }
+         to{
+            transform: translateX(0);
+         }
+    }
+    .highsec_context h2{
+        font-weight: 700;
+        font-size: 28px;
+        text-align: center;
+        color: #0A033C;
+        }
+        .center_context h2{
+            font-weight: 700;
+        font-size: 28px;
+        text-align: center;
+        color: #0A033C;
+        }
+        .footer_wrapper{
+            display: block;
+        }
+    }
